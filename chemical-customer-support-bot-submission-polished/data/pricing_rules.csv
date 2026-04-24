@@ -1,0 +1,13 @@
+region,zone_type,standard_shipping_fee_usd,hazmat_surcharge_usd,refrigerated_surcharge_usd,rural_surcharge_usd,bulk_discount_threshold_qty,bulk_discount_rate,expedite_fee_usd,notes
+California,Domestic West Coast,45,65,40,0,200,0.05,35,Fast lane for western distribution.
+Washington,Domestic Northwest,38,60,40,10,150,0.05,30,Local regional coverage.
+Oregon,Domestic Northwest,40,60,40,5,150,0.05,30,Neighbor-state standard lane.
+Texas,Domestic South,58,75,45,10,250,0.06,40,Long-haul domestic route.
+Illinois,Domestic Midwest,55,70,45,10,250,0.06,40,Central warehouse handoff possible.
+New York,Domestic East Coast,62,80,45,8,250,0.06,45,Higher last-mile costs.
+Florida,Domestic Southeast,60,78,45,8,250,0.06,45,Humidity-sensitive packaging sometimes requested.
+Canada,Cross-border North America,95,120,60,15,300,0.07,65,Import paperwork may extend lead time.
+Mexico,Cross-border North America,98,125,60,15,300,0.07,65,Export compliance review required for some items.
+European Union,International,180,240,95,0,500,0.08,120,Air vs sea mode affects final quote.
+Japan,International,195,250,95,0,500,0.08,125,Label language review may be required.
+Southeast Asia,International,205,260,100,0,500,0.08,130,Port congestion can affect ETA.

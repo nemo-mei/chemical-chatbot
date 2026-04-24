@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill:#111827; }
+    .label { font: 600 20px Arial, sans-serif; fill:#111827; }
+    .body { font: 16px Arial, sans-serif; fill:#374151; }
+    .small { font: 14px Arial, sans-serif; fill:#4b5563; }
+    .box { fill:#f9fafb; stroke:#2563eb; stroke-width:2; rx:18; ry:18; }
+    .decision { fill:#eff6ff; stroke:#2563eb; stroke-width:2; }
+    .tool { fill:#f0fdf4; stroke:#16a34a; stroke-width:2; rx:18; ry:18; }
+    .log { fill:#fff7ed; stroke:#ea580c; stroke-width:2; rx:18; ry:18; }
+    .arrow { stroke:#6b7280; stroke-width:2.5; fill:none; marker-end:url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6b7280" />
+    </marker>
+  </defs>
+  <text x="40" y="50" class="title">Chemical Customer Support Bot - Routing Logic</text>
+  <rect x="60" y="110" width="240" height="110" class="box"/>
+  <text x="95" y="150" class="label">Customer message</text>
+  <text x="85" y="182" class="body">Product question, quote request,</text>
+  <text x="104" y="208" class="body">policy FAQ, or escalation need</text>
+  <polygon points="420,100 560,165 420,230 280,165" class="decision"/>
+  <text x="351" y="157" class="label">Router / Agent</text>
+  <text x="327" y="185" class="small">LLM tool routing or fallback rules</text>
+  <rect x="670" y="40" width="430" height="100" class="tool"/>
+  <text x="720" y="82" class="label">Tool 1: Chemical Lookup</text>
+  <text x="705" y="110" class="body">CSV catalog lookup for CAS, formula, purity,</text>
+  <text x="734" y="132" class="body">hazard class, storage, packaging, lead time</text>
+  <rect x="670" y="180" width="430" height="100" class="tool"/>
+  <text x="724" y="222" class="label">Tool 2: Quote Generator</text>
+  <text x="704" y="250" class="body">Pricing logic using quantity, region, freight,</text>
+  <text x="743" y="272" class="body">hazmat surcharge, and bulk discount rules</text>
+  <rect x="670" y="320" width="430" height="100" class="tool"/>
+  <text x="768" y="362" class="label">Tool 3: FAQ RAG</text>
+  <text x="706" y="390" class="body">Markdown documents split, embedded, stored in</text>
+  <text x="745" y="412" class="body">Chroma, then retrieved for policy answers</text>
+  <rect x="670" y="460" width="430" height="100" class="log"/>
+  <text x="729" y="502" class="label">Tool 4: Escalation + Logging</text>
+  <text x="704" y="530" class="body">Creates human-review records for complaints,</text>
+  <text x="735" y="552" class="body">SDS/COA requests, and unresolved exceptions</text>
+  <path d="M300 165 H280" class="arrow"/>
+  <path d="M560 110 C610 95, 625 90, 670 90" class="arrow"/>
+  <path d="M560 165 H670" class="arrow"/>
+  <path d="M560 220 C610 235, 625 230, 670 230" class="arrow"/>
+  <path d="M420 230 C420 320, 620 370, 670 370" class="arrow"/>
+  <path d="M420 230 C420 420, 620 510, 670 510" class="arrow"/>
+  <rect x="60" y="420" width="500" height="120" class="log"/>
+  <text x="120" y="464" class="label">Conversation Log</text>
+  <text x="89" y="492" class="body">Each turn is saved with timestamp, session ID, intent,</text>
+  <text x="118" y="515" class="body">selected tool, routing reason, and bot response.</text>
+  <path d="M515 420 C590 360, 620 330, 670 320" class="arrow"/>
+  <path d="M515 470 C590 470, 620 490, 670 500" class="arrow"/>
+</svg>

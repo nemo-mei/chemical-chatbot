@@ -1,0 +1,7 @@
+timestamp,session_id,customer_message,probable_intent,missing_information,suggested_owner,status
+2026-04-24T02:18:00.995435+00:00,What is your minimum order quantity?,Product not found in catalog. Route to a human sales rep.,High,OPEN
+2026-04-24T02:18:00.995892+00:00,I need a human agent for a damaged shipment complaint.,Matched escalation keyword pattern.,High,OPEN
+2026-04-24T02:18:36.480531+00:00,I need a human agent for a damaged shipment complaint.,Matched escalation keyword pattern.,High,OPEN
+2026-04-24T02:18:58.551572+00:00,I need a human agent for a damaged shipment complaint.,Matched escalation keyword pattern.,High,OPEN
+2026-04-24T02:19:16.202742+00:00,I need a human agent for a damaged shipment complaint.,Matched escalation keyword pattern.,High,OPEN
+2026-04-24T02:19:35.373478+00:00,I need a human agent for a damaged shipment complaint.,Matched escalation keyword pattern.,High,OPEN

@@ -1,0 +1,10 @@
+flowchart LR
+    U[Customer message] --> R{Router / Agent}
+    R -->|properties / catalog| C[Chemical Lookup]
+    R -->|pricing / quantity / region| Q[Quote Generator]
+    R -->|policies / FAQ| F[FAQ RAG]
+    R -->|complaint / unresolved| E[Escalation]
+    C --> L[(Conversation log)]
+    Q --> L
+    F --> L
+    E --> L
