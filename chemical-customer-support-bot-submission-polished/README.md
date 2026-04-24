@@ -13,7 +13,7 @@ python_version: 3.11
 LangChain-based customer support chatbot for chemical product inquiries, preliminary quotes, policy questions, and human escalation.
 
 **GitHub repo:** `https://github.com/nemo-mei/chemical-chatbot.git`  
-**Live demo:** `nemomei39/chemical-customer-support-bot`
+**Live demo:** `https://nemomei39-chemical-customer-support-bot.hf.space/`
 
 ## Overview
 
